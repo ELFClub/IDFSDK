@@ -1,0 +1,6 @@
+framework module IDFSDK {
+  umbrella header "IDFSDK.h"
+
+  export *
+  module * { export * }
+}
