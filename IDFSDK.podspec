@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "IDFSDK"
-  spec.version      = "6.3.1.1"
+  spec.version      = "6.3.1.2"
   spec.summary      = "use IDFSDK."
 
   spec.description  = <<-DESC
