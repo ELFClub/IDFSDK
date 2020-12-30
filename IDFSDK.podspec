@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "IDFSDK"
-  spec.version      = "6.3.1.2"
+  spec.version      = "6.3.1.3"
   spec.summary      = "use IDFSDK."
 
   spec.description  = <<-DESC
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   spec.libraries    = 'c++'
 
   spec.vendored_frameworks =  ['IDFSDK/Frameworks/IDFSDK.framework','IDFSDK/Frameworks/TapDB_iOS.framework']
-  spec.resource = 'IDFSDK/Frameworks/IDFBoundle.bundle'
+  spec.resource = 'IDFSDK/Frameworks/IDFSDK.framework/IDFSDK.bundle'
 
   valid_archs     = ['armv7', 'x86_64', 'arm64']
   spec.xcconfig   = {
